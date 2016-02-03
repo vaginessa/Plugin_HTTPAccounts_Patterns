@@ -1,0 +1,13 @@
+<?xml version="1.0" ?> 
+<HTTPAccountPattern>
+   <Config name="BKB login request pattern" description="BKB login request pattern for URL" date="2016-02-03">
+     <Author name="Simsang" reference="http://buglist.io/" />
+   </Config>
+   
+   <Company>BKB</Company>
+   <WebPage>www.bkb.ch</WebPage>
+   <Method>POST</Method>
+   <Host>ebanking\.bkb\.ch</Host>
+   <Path>\/ebankingLogin10\/login</Path>
+   <DataPattern>contractid=([^\s&amp;=]+)&amp;password=([^\s\n\r&amp;=]*?)(&amp;|\.\.|\s|$)</DataPattern>
+</HTTPAccountPattern>

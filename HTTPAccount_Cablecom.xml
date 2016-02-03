@@ -1,0 +1,13 @@
+<?xml version="1.0" ?> 
+<HTTPAccountPattern>
+   <Config name="Cablecom login request pattern" description="Cablecom login request pattern for URL" date="2016-02-03">
+     <Author name="Simsang" reference="http://buglist.io/" />
+   </Config>
+   
+   <Company>Cablecom</Company>
+   <WebPage>www.upc-cablecom.ch</WebPage>
+   <Method>POST</Method>
+   <Host>your\.hispeed\.ch</Host>
+   <Path>\/setcookie.cgi.*</Path>
+   <DataPattern>mail=([^\s&amp;=]+)&amp;password=([^\s\n\r&amp;=]*?)(&amp;|\.\.|\s|$)</DataPattern>
+</HTTPAccountPattern>

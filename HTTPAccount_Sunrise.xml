@@ -1,0 +1,13 @@
+<?xml version="1.0" ?> 
+<HTTPAccountPattern>
+   <Config name="Sunrise login request pattern" description="Sunrise login request pattern for URL" date="2016-02-03">
+     <Author name="Simsang" reference="http://buglist.io/" />
+   </Config>
+   
+   <Company>Sunrise</Company>
+   <WebPage>www1.sunrise.ch</WebPage>
+   <Method>POST</Method>
+   <Host>mip\.sunrise\.ch</Host>
+   <Path>\/mip\/dyn\/login\/login\?.*</Path>
+   <DataPattern>username=([^\s&amp;=]+)&amp;password=([^\s\n\r&amp;=]*?)(&amp;|\.\.|\s|$)</DataPattern>
+</HTTPAccountPattern>

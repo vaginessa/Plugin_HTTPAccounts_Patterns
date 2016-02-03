@@ -1,0 +1,13 @@
+<?xml version="1.0" ?> 
+<HTTPAccountPattern>
+   <Config name="NZZ login request pattern" description="NZZ login request pattern for URL" date="2016-02-03">
+     <Author name="Simsang" reference="http://buglist.io/" />
+   </Config>
+   
+   <Company>NZZ</Company>
+   <WebPage>www.nzz.ch</WebPage>
+   <Method>POST</Method>
+   <Host>login\.nzz\.ch</Host>
+   <Path>.*</Path>
+   <DataPattern>loginName=([^\s&amp;=]+)&amp;loginPass=([^\s\n\r&amp;=]*?)(&amp;|\.\.|\s|$)</DataPattern>
+</HTTPAccountPattern>

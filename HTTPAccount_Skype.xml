@@ -1,0 +1,13 @@
+<?xml version="1.0" ?> 
+<HTTPAccountPattern>
+   <Config name="Skype login request pattern" description="Skype login request pattern for URL" date="2016-02-03">
+     <Author name="Simsang" reference="http://buglist.io/" />
+   </Config>
+   
+   <Company>Skype login</Company>
+   <WebPage>login.skype.com</WebPage>
+   <Method>POST</Method>
+   <Host>login\.skype\.com</Host>
+   <Path>\/login</Path>
+   <DataPattern>username=([^&amp;=\s]+)&amp;password=([^&amp;=\s]+)(&amp;|\.\.|\s|$)</DataPattern>
+</HTTPAccountPattern>

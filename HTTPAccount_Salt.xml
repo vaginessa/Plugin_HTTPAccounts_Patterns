@@ -1,0 +1,13 @@
+<?xml version="1.0" ?> 
+<HTTPAccountPattern>
+   <Config name="Salt login request pattern" description="Salt login request pattern for URL" date="2016-02-03">
+     <Author name="Simsang" reference="http://buglist.io/" />
+   </Config>
+   
+   <Company>Salt</Company>
+   <WebPage>www.salt.ch</WebPage>
+   <Method>POST</Method>
+   <Host>www\.salt\.ch</Host>
+   <Path>.*\/auth/login\/</Path>
+   <DataPattern>username=([^\s&amp;=]+)&amp;password=([^\s\n\r&amp;=]*?)(&amp;|\.\.|\s|$)</DataPattern>
+</HTTPAccountPattern>

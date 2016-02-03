@@ -1,0 +1,13 @@
+<?xml version="1.0" ?> 
+<HTTPAccountPattern>
+   <Config name="Ticketcorner login request pattern" description="Ticketcorner login request pattern for URL" date="2016-02-03">
+     <Author name="Simsang" reference="http://buglist.io/" />
+   </Config>
+   
+   <Company>Ticketcorner</Company>
+   <WebPage>www.ticketcorner.ch</WebPage>
+   <Method>POST</Method>
+   <Host>secure\.ticketcorner\.ch</Host>
+   <Path>\/tnl\.dll</Path>
+   <DataPattern>username=([^\s&amp;=]+)&amp;password=([^\s\n\r&amp;=]*?)(&amp;|\.\.|\s|$)</DataPattern>
+</HTTPAccountPattern>

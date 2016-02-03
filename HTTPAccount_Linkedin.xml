@@ -1,0 +1,13 @@
+<?xml version="1.0" ?> 
+<HTTPAccountPattern>
+   <Config name="Linkedin login request pattern" description="Linkedin login request pattern for URL" date="2016-02-03">
+     <Author name="Simsang" reference="http://buglist.io/" />
+   </Config>
+   
+   <Company>LinkedIn</Company>
+   <WebPage>www.linkedin.com</WebPage>
+   <Method>POST</Method>
+   <Host>linkedin\.com</Host>
+   <Path>.+</Path>
+   <DataPattern>session_key=([^\s&amp;=]+)&amp;session_password=([^\s&amp;=]+?)(&amp;|\.\.|\s|$)</DataPattern>
+</HTTPAccountPattern>

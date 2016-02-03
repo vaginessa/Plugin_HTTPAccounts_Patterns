@@ -1,0 +1,13 @@
+<?xml version="1.0" ?> 
+<HTTPAccountPattern>
+   <Config name="Bluewin login request pattern" description="Bluewin login request pattern for URL" date="2016-02-03">
+     <Author name="Simsang" reference="http://buglist.io/" />
+   </Config>
+   
+   <Company>Bluewin</Company>
+   <WebPage>www.bluewin.ch</WebPage>
+   <Method>POST</Method>
+   <Host>login\.sso\.bluewin\.ch</Host>
+   <Path>\/login\?.*</Path>
+   <DataPattern>username=([^\s&amp;=]+)&amp;password=([^\s\n\r&amp;=]*?)(&amp;|\.\.|\s|$)</DataPattern>
+</HTTPAccountPattern>

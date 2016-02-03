@@ -1,0 +1,13 @@
+<?xml version="1.0" ?> 
+<HTTPAccountPattern>
+   <Config name="Github login request pattern" description="Github login request pattern for URL" date="2016-02-03">
+     <Author name="Simsang" reference="http://buglist.io/" />
+   </Config>
+   
+   <Company>GitHub</Company>
+   <WebPage>github.com</WebPage>
+   <Method>POST</Method>
+   <Host>github\.com</Host>
+   <Path>\/session</Path>
+   <DataPattern>login=([^&amp;=\s]+)&amp;password=([^&amp;=\s]+)(&amp;|\.\.|\s|$)</DataPattern>
+</HTTPAccountPattern>

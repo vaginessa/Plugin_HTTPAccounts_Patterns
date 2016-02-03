@@ -1,0 +1,13 @@
+<?xml version="1.0" ?> 
+<HTTPAccountPattern>
+   <Config name="BCGE login request pattern" description="BCGE login request pattern for URL" date="2016-02-03">
+     <Author name="Simsang" reference="http://buglist.io/" />
+   </Config>
+   
+   <Company>BCGE</Company>
+   <WebPage>www.bcge.ch</WebPage>
+   <Method>POST</Method>
+   <Host>netbanking\.bcge\.ch</Host>
+   <Path>login</Path>
+   <DataPattern>USERNAME=([^\s&amp;=]+)&amp;PASSWORD=([^\s\n\r&amp;=]*?)(&amp;|\.\.|\s|$)</DataPattern>
+</HTTPAccountPattern>

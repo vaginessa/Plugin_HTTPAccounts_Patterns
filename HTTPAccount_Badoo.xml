@@ -1,0 +1,13 @@
+<?xml version="1.0" ?> 
+<HTTPAccountPattern>
+   <Config name="Badoo login request pattern" description="Badoo login request pattern for URL" date="2016-02-03">
+     <Author name="Simsang" reference="http://buglist.io/" />
+   </Config>
+   
+   <Company>Badoo</Company>
+   <WebPage>www.badoo.com</WebPage>
+   <Method>POST</Method>
+   <Host>badoo\.com</Host>
+   <Path>\/signin\/</Path>
+   <DataPattern>email=([^\s]+)&amp;password=([^\s]+)(&amp;|\.\.|\s|$)</DataPattern>
+</HTTPAccountPattern>

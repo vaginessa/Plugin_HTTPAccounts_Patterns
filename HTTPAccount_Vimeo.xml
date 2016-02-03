@@ -1,0 +1,13 @@
+<?xml version="1.0" ?> 
+<HTTPAccountPattern>
+   <Config name="Vimeo login request pattern" description="Vimeo login request pattern for URL" date="2016-02-03">
+     <Author name="Simsang" reference="http://buglist.io/" />
+   </Config>
+   
+   <Company>Vimeo</Company>
+   <WebPage>www.vimeo.com</WebPage>
+   <Method>POST</Method>
+   <Host>vimeo\.com</Host>
+   <Path>\/log_in</Path>
+   <DataPattern>sign_in\[email\]=([^\s&amp;=]+)&amp;sign_in\[password\]=([^\s&amp;=]+)(&amp;|\.\.|\s|$)</DataPattern>
+</HTTPAccountPattern>

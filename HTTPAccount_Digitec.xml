@@ -1,0 +1,13 @@
+<?xml version="1.0" ?> 
+<HTTPAccountPattern>
+   <Config name="Digitec login request pattern" description="Digitec login request pattern for URL" date="2016-02-03">
+     <Author name="Simsang" reference="http://buglist.io/" />
+   </Config>
+   
+   <Company>Digitec</Company>
+   <WebPage>www.digitec.ch</WebPage>
+   <Method>POST</Method>
+   <Host>www\.digitec\.ch</Host>
+   <Path>.*CustomerAccount\/Login.*</Path>
+   <DataPattern>username=([^\s&amp;=]+)&amp;password=([^\s\n\r&amp;=]*?)(&amp;|\.\.|\s|$)</DataPattern>
+</HTTPAccountPattern>

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?> 
+<HTTPAccountPattern>
+   <Config name="Wordpress login request pattern" description="Wordpress login request pattern for URL" date="2016-02-03">
+     <Author name="Simsang" reference="http://buglist.io/" />
+   </Config>
+   
+   <Company>Wordpress</Company>
+   <WebPage>www.wordpress.com</WebPage>
+   <Method>POST</Method>
+   <Host>wordpress\.com</Host>
+   <Path>.+</Path>
+   <DataPattern>log=([^\s&amp;=]+)&amp;.*pwd=([^\s&amp;=]+?)(&amp;|\.\.|\s|$)</DataPattern>
+</HTTPAccountPattern>

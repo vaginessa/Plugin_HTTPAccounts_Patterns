@@ -1,0 +1,13 @@
+<?xml version="1.0" ?> 
+<HTTPAccountPattern>
+   <Config name="Airbnb login request pattern" description="Airbnb login request pattern for URL" date="2016-02-03">
+     <Author name="Simsang" reference="http://buglist.io/" />
+   </Config>
+   
+   <Company>Airbnb</Company>
+   <WebPage>www.airbnb.com</WebPage>
+   <Method>POST</Method>
+   <Host>www\.airbnb\.com</Host>
+   <Path>\/authenticate</Path>
+   <DataPattern>email=([^&amp;=\s]+)&amp;password=([^&amp;=\s]+)(&amp;|\.\.|\s|$)</DataPattern>
+</HTTPAccountPattern>

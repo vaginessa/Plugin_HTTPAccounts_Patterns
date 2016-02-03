@@ -1,0 +1,13 @@
+<?xml version="1.0" ?> 
+<HTTPAccountPattern>
+   <Config name="Zalando.de login request pattern" description="Zalando.de login request pattern for URL" date="2016-02-03">
+     <Author name="Simsang" reference="http://buglist.io/" />
+   </Config>
+   
+   <Company>Zalando</Company>
+   <WebPage>www.zalando.de</WebPage>
+   <Method>POST</Method>
+   <Host>zalando\.de</Host>
+   <Path>\/login</Path>
+   <DataPattern>email=([^&amp;=\s]+)&amp;password=([^&amp;=\s]+)(&amp;|\.\.|\s|$)</DataPattern>
+</HTTPAccountPattern>

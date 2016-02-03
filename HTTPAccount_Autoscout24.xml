@@ -1,0 +1,13 @@
+<?xml version="1.0" ?> 
+<HTTPAccountPattern>
+   <Config name="Autoscout24 login request pattern" description="Autoscout24 login request pattern for URL" date="2016-02-03">
+     <Author name="Simsang" reference="http://buglist.io/" />
+   </Config>
+   
+   <Company>Autoscout24</Company>
+   <WebPage>www.autoscout24.ch</WebPage>
+   <Method>POST</Method>
+   <Host>www\.autoscout24\.ch</Host>
+   <Path>.*account\/logon</Path>
+   <DataPattern>LogOnModel\.UserName=([^\s&amp;=]+)&amp;LogOnModel\.Password=([^\s\n\r&amp;=]*?)(&amp;|\.\.|\s|$)</DataPattern>
+</HTTPAccountPattern>
