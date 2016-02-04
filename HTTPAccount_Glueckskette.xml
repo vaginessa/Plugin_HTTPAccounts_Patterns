@@ -1,7 +1,11 @@
 <?xml version="1.0" ?> 
 <HTTPAccountPattern>
-   <Config name="Glueckskette login request pattern" description="Glueckskette login request pattern for URL" date="2016-02-03">
-     <Author name="Simsang" reference="http://buglist.io/" />
+   <Config>
+     <Name>Glückskette user login request pattern</Name>
+     <Description>Glückskette user login request pattern for [URL]</Description>
+     <Timestamp>2016-02-03</Timestamp>
+     <Author>Simsang</Author>
+     <Reference>http://buglist.io/ </Reference>
    </Config>
    
    <Company>Glueckskette</Company>

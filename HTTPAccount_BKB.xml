@@ -1,7 +1,11 @@
 <?xml version="1.0" ?> 
 <HTTPAccountPattern>
-   <Config name="BKB login request pattern" description="BKB login request pattern for URL" date="2016-02-03">
-     <Author name="Simsang" reference="http://buglist.io/" />
+   <Config>
+     <Name>Basler Kantonalbank online banking login request pattern</Name>
+     <Description>Login request pattern for [URL]</Description>
+     <Timestamp>2016-02-03</Timestamp>
+     <Author>Simsang</Author>
+     <Reference>http://buglist.io/ </Reference>
    </Config>
    
    <Company>BKB</Company>

@@ -1,7 +1,11 @@
 <?xml version="1.0" ?> 
 <HTTPAccountPattern>
-   <Config name="Cablecom login request pattern" description="Cablecom login request pattern for URL" date="2016-02-03">
-     <Author name="Simsang" reference="http://buglist.io/" />
+   <Config>
+     <Name>www.upc-cablecom.ch user login request pattern</Name>
+     <Description>www.upc-cablecom.ch login request pattern for URL</Description>
+     <Timestamp>2016-02-03</Timestamp>
+     <Author>Simsang</Author>
+     <Reference>http://buglist.io/ </Reference>
    </Config>
    
    <Company>Cablecom</Company>

@@ -1,7 +1,11 @@
 <?xml version="1.0" ?> 
 <HTTPAccountPattern>
-   <Config name="Digitec login request pattern" description="Digitec login request pattern for URL" date="2016-02-03">
-     <Author name="Simsang" reference="http://buglist.io/" />
+   <Config>
+     <Name>Digitec login request pattern</Name>
+     <Description>Digitec user login request pattern for [URL]</Description>
+     <Timestamp>2016-02-03</Timestamp>
+     <Author>Simsang</Author>
+     <Reference>http://buglist.io/ </Reference>
    </Config>
    
    <Company>Digitec</Company>

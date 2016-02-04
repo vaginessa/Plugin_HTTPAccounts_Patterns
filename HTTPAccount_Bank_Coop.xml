@@ -1,7 +1,11 @@
 <?xml version="1.0" ?> 
 <HTTPAccountPattern>
-   <Config name="Bank Coop login request pattern" description="Bank Coop login request pattern for URL" date="2016-02-03">
-     <Author name="Simsang" reference="http://buglist.io/" />
+   <Config>
+     <Name>Online banking bankcoop.ch login request pattern</Name>
+     <Description>www.bankcoop.ch login request pattern for [URL]</Description>
+     <Timestamp>2016-02-03</Timestamp>
+     <Author>Simsang</Author>
+     <Reference>http://buglist.io/ </Reference>
    </Config>
    
    <Company>Bank-Coop</Company>
